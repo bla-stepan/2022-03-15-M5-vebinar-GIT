@@ -23,4 +23,10 @@ public class Car {
         isAwd = false;
         acceleration = 10;
     }
+    //создадим метод, который будет считать скорость разгона автомобиля
+
+    float cauntSpeed(float time){
+        return 100/acceleration*time;
+    }
+
 }

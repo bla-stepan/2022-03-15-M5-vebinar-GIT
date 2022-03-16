@@ -12,5 +12,7 @@ public class main {
         Car lada = new Car("lada", 150, false, 20);
         System.out.println(lada.brand + ", мощность -" + lada.power + "л.с., разгон до 100 км/ч - " + lada.acceleration);
         lada.start();
+        System.out.println(mazda.brand + " - " + mazda.cauntSpeed(5)+" км/ч");
+        System.out.println(lada.brand + " - " + lada.cauntSpeed(5)+" км/ч");
     }
 }
